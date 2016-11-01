@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/** Removal of inner and outer margin **/
+body, div, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements  */
+dl, dt, dd, ul, ol, li, /* list elements  */
+pre, code, /* text formatting elements  */
+form, fieldset, legend, button, input, textarea, select, /* form elements  */
+th, td /* table elements  */ {
+    margin: 0;
+    padding: 0;
+}
+
+/** Set the default font **/
+body,
+button, input, select, textarea, address, caption, cite, code, dtn, em, optgroup, option /* for ie */ {
+    
+}
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight:bold; }
+address, cite, dfn, em, var { font-style: normal; }
+code, kbd, pre, samp { font-family: courier new, courier, monospace; } 
+small { font-size: 12px; }
+
+/** Reset the list elements **/
+li { list-style: none; }
+
+/** Reset the img element **/
+img { border:none; vertical-align:middle; }
+                                 
+/** Reset the text formatting elements **/
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }                                 
+sup { vertical-align: text-top; } 
+sub { vertical-align: text-bottom; }
+                                 
+/** Reset the form elements **/
+legend { color: #000; } /* for ie6 */
+fieldset { border: 0; }
+button, input, select, textarea { font-size: 100%; resize:none; }
+                                 
+/** Reset the form elements **/
+table { border-collapse: collapse; border-spacing: 0; }
+                                 
+/** Reset HTML5 elements **/
+article, aside, details, figcaption, figure, footer,header, hgroup, menu, nav, section,
+summary, time, mark, audio, video {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+mark { background: #ff0; }

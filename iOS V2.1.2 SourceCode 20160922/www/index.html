@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <!--<link rel="stylesheet" type="text/css" href="css/index.css" />-->
+        <link rel="Stylesheet" type="text/css" href="css/sencha-touch.css" />
+        <link rel="Stylesheet" type="text/css" href="css/reset.css" />
+        <link rel="Stylesheet" type="text/css" href="css/base.css" />
+        <link rel="Stylesheet" type="text/css" href="css/pad.css" media="screen and (min-width: 767px) and (max-width: 769px)" />
+        <title>Glucagon</title>
+		
+        <script type="text/javascript" src="js/jquery.min.js" ></script>
+		<script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/sencha-touch-all.js"></script>
+        <script type="text/javascript" src="js/utility/appConfig.js"></script>
+        <script type="text/javascript" src="js/utility/commonHelper.js"></script>
+        <script type="text/javascript" src="js/utility/fileHelper.js"></script>
+        <script type="text/javascript" src="js/utility/downloadHelper.js"></script>
+        <script type="text/javascript" src="js/utility/formatHelper.js"></script>
+        <script type="text/javascript" src="js/utility/propertyExtend.js"></script>
+        <script type="text/javascript" src="js/utility/accelerometerMonitor.js"></script>
+        <script type="text/javascript" src="js/utility/msgHelper.js"></script>
+        <script type="text/javascript" src="js/utility/maskHelper.js"></script>
+        <script type="text/javascript" src="js/utility/localNotification.js"></script>
+        <script type="text/javascript" src="js/data/enum.js"></script>
+        <script type="text/javascript" src="js/data/userData.js"></script>
+        <script type="text/javascript" src="js/data/localDB.js"></script>
+        <script type="text/javascript" src="js/data/session.js"></script>
+
+        <script type="text/javascript" src="js/businessCore/myKitsManager.js"></script>
+        <script type="text/javascript" src="js/businessCore/dplPDFManager.js"></script>
+        <script type="text/javascript" src="js/businessCore/oldVersionManager.js"></script>
+        <script type="text/javascript" src="js/ui/base.js"></script>
+        <script type="text/javascript" src="js/ui/controls/topMenu.js"></script>
+        <script type="text/javascript" src="js/ui/controls/bottomMenu.js"></script>
+        <script type="text/javascript" src="js/ui/controls/scrollTextArea.js"></script>
+        <script type="text/javascript" src="js/ui/controls/imageView.js"></script>
+        <script type="text/javascript" src="js/ui/controls/exCarousel.js"></script>
+
+        <script type="text/javascript" src="js/ui/overview.js"></script>
+        <script type="text/javascript" src="js/ui/landing.js"></script>
+        <script type="text/javascript" src="js/ui/notes.js"></script>
+        <script type="text/javascript" src="js/ui/settings.js"></script>
+        <script type="text/javascript" src="js/ui/emergencyInstructions.js"></script>
+
+        <script type="text/javascript" src="js/ui/practiceAndPrepare/practiceAndPrepare.js"></script>
+        <script type="text/javascript" src="js/ui/practiceAndPrepare/injectionStepGuide.js"></script>
+        <script type="text/javascript" src="js/ui/practiceAndPrepare/injectionStep01.js"></script>
+        <script type="text/javascript" src="js/ui/practiceAndPrepare/injectionStep02.js"></script>
+        <script type="text/javascript" src="js/ui/practiceAndPrepare/injectionStep03.js"></script>
+        <script type="text/javascript" src="js/ui/practiceAndPrepare/injectionStep04.js"></script>
+        <script type="text/javascript" src="js/ui/practiceAndPrepare/injectionStep05.js"></script>
+        <script type="text/javascript" src="js/ui/practiceAndPrepare/injectionStep06.js"></script>
+        <script type="text/javascript" src="js/ui/practiceAndPrepare/injectionStep07.js"></script>
+        <script type="text/javascript" src="js/ui/practiceAndPrepare/injectionStep08.js"></script>
+        <script type="text/javascript" src="js/ui/practiceAndPrepare/injectionStep09.js"></script>
+        <script type="text/javascript" src="js/ui/practiceAndPrepare/injectionStep10.js"></script>
+        <script type="text/javascript" src="js/ui/practiceAndPrepare/injectionStep11.js"></script>
+        <script type="text/javascript" src="js/ui/practiceAndPrepare/injectionStep12.js"></script>
+        <script type="text/javascript" src="js/ui/practiceAndPrepare/injectionStep13.js"></script>
+        <script type="text/javascript" src="js/ui/practiceAndPrepare/injectionStep14.js"></script>
+        <script type="text/javascript" src="js/ui/practiceAndPrepare/injectionStep15.js"></script>
+        <script type="text/javascript" src="js/ui/practiceAndPrepare/injectionStepCompleted.js"></script>
+
+        <script type="text/javascript" src="js/ui/manageMyKits/manageMyKits.js"></script>
+        <script type="text/javascript" src="js/ui/manageMyKits/myKitInformation.js"></script>
+        <script type="text/javascript" src="js/ui/manageMyKits/myKitInformationDetail.js"></script>
+        <script type="text/javascript" src="js/ui/manageMyKits/storingGlucagon.js"></script>
+
+        <script type="text/javascript" src="js/ui/learnAboutGlucagon/learnAboutGlucagon.js"></script>
+        <script type="text/javascript" src="js/ui/learnAboutGlucagon/glucagonIndication.js"></script>
+        <script type="text/javascript" src="js/ui/learnAboutGlucagon/lowBloodSugar.js"></script>
+        <script type="text/javascript" src="js/ui/learnAboutGlucagon/glucagonTips.js"></script>
+        <script type="text/javascript" src="js/ui/learnAboutGlucagon/helpfulLinks.js"></script>
+
+        <script type="text/javascript" src="js/ui/generalInformation/generalInformation.js"></script>
+        <script type="text/javascript" src="js/ui/generalInformation/termsOfUse.js"></script>
+        <script type="text/javascript" src="js/ui/generalInformation/privacyPolicy.js"></script>
+        <script type="text/javascript" src="js/ui/generalInformation/copyRight.js"></script>
+        <script type="text/javascript" src="js/ui/generalInformation/askLilly.js"></script>
+
+        <script type="text/javascript" src="js/ui/isi.js"></script>
+        <script type="text/javascript" src="js/ui/informationForUser.js"></script>
+        <script type="text/javascript" src="js/ui/informationForPhysician.js"></script>
+        <script type="text/javascript" src="js/ui/datePicker.js"></script>
+
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </head>
+    <body>
+    </body>
+</html>

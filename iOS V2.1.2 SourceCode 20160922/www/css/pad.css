@@ -1,0 +1,732 @@
+@charset "utf-8";
+html, body { font-size: 28px!important; }
+
+.x-msgbox .x-button-label
+{
+    font-size: 32px!important;
+}
+
+.x-mask-message
+{
+    bottom:50px!important;
+}
+
+.x-loading-spinner-outer
+{
+     height: 340px!important;
+}
+
+.x-mask-inner
+{
+    width: 500px!important;
+}
+
+.x-mask-inner .x-innerhtml
+{
+    bottom: -60px!important;
+}
+
+.loadMask 
+{
+    top: -10px;
+    height:32px;
+}
+
+.loadMask .loadPercent
+{
+    height:32px; 
+    line-height:32px; 
+}
+
+.loadMask .loadProgress
+{
+    height:32px; 
+}
+
+h1 { font-size: 48px!important; }
+h3 { font-size: 28px!important; }
+.btn_1 {
+	width: 76px;
+	height: 50px;
+}
+.btn_2 {
+	width: 64px;
+	height: 50px;
+}
+header {
+	padding: 0 20px;
+	/*added by robbie start*/
+	margin-bottom: -4px;
+	/*added by robbie end*/
+	height: 80px;
+	line-height: 80px;
+	font-size: 32px!important;
+}
+footer {
+	padding: 0 10px;
+	height: 88px;
+	line-height: 88px;
+}
+footer.pdf_footer {
+	height: 96px;
+	line-height: 96px;
+	/*(box-shadow: 0 -2px 8px rgba(0,0,0,.2), 0 -4px 12px rgba(0,0,0,.4);*/
+}
+.main {
+	padding: 20px;
+	box-shadow: 0 -2px 0 rgba(255,255,255,1);
+	margin-top: -4px;
+}
+.pdf_main {
+	box-shadow: 0 -2px 0 rgba(255,255,255,1);
+	margin-top: 12px;
+	z-index: 9;
+}
+.logo_r { margin: 30px 20px 0 0; }
+.action { margin-top: -10px; }
+.action span {
+	width: 200px;
+	height: 42px;
+	line-height: 42px;
+}
+.media 
+{
+    margin: 20px auto;
+	border-radius: 40px;
+	box-shadow: 2px 2px 4px rgba(0,0,0,.4);  /* Update By Jean On 07/10/2014 */
+	padding: 10px;
+    font-size: 28px!important;
+}
+
+/*added by robbie start*/
+.media img 
+{
+	border-radius: 40px;
+}
+/*added by robbie end*/
+
+.instructions {
+	margin: 30px auto;
+	/*modified by robbie start*/
+	/*font-size: 44px;*/
+	font-size: 30px!important;
+	/*modified by robbie end*/
+	line-height: 48px;
+}
+.instructions_small {
+	line-height: 40px;
+	margin: 70px auto 30px;
+    font-size: 30px!important;  
+}
+.instructions_small sup  
+{
+    font-size: 16px!important;  
+}
+.info {
+	margin: 0 -20px;
+	height: 652px;
+	padding-top: 450px;
+	top: 140px;
+}
+/*added by robbie start*/
+.watch_info {
+	margin: 0 -20px;
+	height: 652px;
+	padding-top: 450px;
+	top: 140px;
+}
+/*added by robbie end*/
+.main_nav {
+	margin: 80px auto 0;  /* Update By Jean On 18/09/2014 */
+	width: 724px;  /* Update By Jean On 18/09/2014 */
+}
+.main_nav li:first-child { margin-bottom: 20px; }
+.main_nav li:first-child img { width:100%; height:120px !important; }  /* Update By Jean On 18/09/2014 */
+.main_nav li {
+	height: 78px;  /* Update By Jean On 18/09/2014 */
+	line-height: 74px;  /* Update By Jean On 12/11/2014 */
+	padding: 0 30px;
+	margin-bottom: 10px;
+	border-width: 2px;
+	border-radius: 20px;
+}
+.main_nav li + li img {  /* Update By Jean On 18/09/2014 */
+	margin-right: 30px; 
+	margin-top: -6px;  /* Update By Jean On 12/11/2014 */
+}
+.sub_nav {
+	margin: 120px auto 0;
+	border-width: 2px;
+}
+.sub_nav li {
+	height: 60px;
+	line-height: 60px;
+	padding-left: 30px;
+}
+.sub_nav .iocn_arrow {
+	margin-top: 16px;
+	margin-right: 60px;
+	width: 20px;
+	height: 28px;
+}
+.editor {
+	margin-top: 40px;
+	border-radius: 32px;  /* Update By Jean On 07/10/2014 */
+	padding: 30px;
+	padding-right: 10px;
+	/*removed by robbie start*/
+	/*min-height: 620px;*/
+	/*removed by robbie end*/
+}
+.content 
+{
+    padding-right: 20px;
+}
+/*removed by robbie start*/
+/*.content { height: 650px; }*/
+.editor textarea { line-height: 40px; }
+/*removed by robbie end*/
+
+.editor h1 { font-size: 30px!important; }
+footer img  
+{
+    /*modified by robbie start*/
+    /*margin: 0 10px;*/
+    margin: 0 12px;  
+    /*modified by robbie end*/
+}
+footer > img { margin-top: 16px; }
+footer .float_r { right: 10px; }
+footer .float_l strong { margin-left: 40px; }
+.copyright {
+	padding: 0 20px;
+	font-size: 22px!important;
+	line-height: 28px;
+	/*removed by robbie start*/
+	/*bottom: 90px;*/
+	/*removed by robbie end*/
+}
+header .float_r { right: 20px; }
+.main_nav li a img { margin: 18px 0 0 0; }  /* Update By Jean On 24/09/2014 */
+
+.sub_nav li a { border-width: 2px; }
+
+.popup_message_1, .popup_message_2 {  /* Update By Jean On 07/10/2014 */
+	height: 244px;
+	margin: 20px auto 0;
+	padding-top: 110px;
+	/*updated by robbie start*/
+	/*bottom: 100px;*/
+	bottom: 50px;
+	/*updated by robbie end*/
+}
+.popup_message_2 {  /* Update By Jean On 07/10/2014 */
+	height:248px;
+	padding-top:132px;
+	bottom:300px;
+}
+.popup_message_1 a, .popup_message_2 a { margin: 0 10px; }  /* Update By Jean On 07/10/2014 */
+
+.content p 
+{ 
+    margin: 20px 0; 
+    /*added by robbie start*/
+    line-height: 1.48!important;
+    /*added by robbie end*/
+}
+.content ul { margin: 0 0 20px 0; }
+.content li 
+{ 
+    margin: 0 0 0 40px; 
+    /*added by robbie start*/
+    line-height: 1.48!important;
+    /*added by robbie end*/
+}
+.content em { font-size: 28px!important; }
+.injection_step { min-height: 720px; }
+.injection_step .bg { margin:0 0 0 180px; }  /* Update By Jean On 30/10/2014 */
+.injection_step .intro_1, .injection_step .intro_2, .injection_step .intro_3 { width: 140px; font-size:30px!important; }  /* Update By Jean On 30/10/2014 */
+.injection_step .intro_1 {
+	top: 300px;
+	left: 40px;  /* Update By Jean On 18/09/2014 */
+}
+.injection_step .intro_2 {
+	top: 220px;
+	right: 100px;  /* Update By Jean On 18/09/2014 */
+}
+.injection_step .intro_3 {
+	top: 500px;
+	right: 100px;  /* Update By Jean On 18/09/2014 */
+}
+.injection_step .btn_next {
+	width: 158px;
+	height: 74px;
+	top: 620px;
+	right: 20px;
+}
+.injection_step .popup_info_1, .injection_step .popup_info_2 {
+	top: 40px;
+	padding-top: 450px;
+	height: 592px;
+}
+.injection_step .popup_info_1 {
+	height: 660px;
+	padding: 40px;
+	letter-spacing: 2px;
+}
+.injection_step .popup_info_1 h3 { font-size: 32px!important; line-height:48px; }  /* Update By Jean On 30/10/2014 */
+.injection_step .popup_info_1 p { margin-bottom: 50px; line-height:42px; }  /* Update By Jean On 30/10/2014 */
+.injection_step .popup_info_1 h3:first-child + p { margin-bottom: 10px; }  /* Update By Jean On 18/09/2014 */
+.injection_step .popup_info_1 h3:first-child + p { margin-bottom:10px ; }  /* Update By Jean On 18/09/2014 */
+.skin, .skin_cover, .syringe, .syringe_cover, .syringe_plugner, .bottle, .needle, .bottle_top, .hand_1, .hand_2, .arrow_left_right { margin: 0 -20px; }
+.arrow_up, .arrow_down {
+	width: 132px;
+	height: 198px;
+}
+.arrow_left, .arrow_right {
+	width: 198px;
+	height: 132px;
+}
+.tips {
+	width: 450px;  /* Update By Jean On 26/09/2014 */
+	padding: 20px 30px;  /* Update By Jean On 26/09/2014 */
+	font-size: 32px!important;  /* Update By Jean On 26/09/2014 */
+	text-shadow: -2px -2px 4px rgba(0,0,0,.4);
+	border-width: 4px;
+	border-radius: 30px;  /* Update By Jean On 07/10/2014 */
+	box-shadow: 2px 2px 4px rgba(0,0,0,.4);  /* Update By Jean On 07/10/2014 */
+	margin: 20px auto 0;
+}
+.tips p { margin-left: -10px; }
+.act_btn {
+	width: 164px;
+	height: 74px;
+	bottom: 100px;
+}
+.injection_step_1 .bottle { bottom: 180px; }
+.injection_step_1 .bottle_top { bottom: 548px; }
+.injection_step_1 .bottle_top img { margin-left: -6px; }
+.injection_step_1 .needle { bottom: 490px; }
+.injection_step_1 .arrow_up { bottom: 460px; }
+.injection_step_1 .hand_1 { bottom: 100px; }
+.injection_step_1 .hand_1 img { margin-left: 220px; }
+.injection_step_1 .tips p { margin-left: 10px; }
+/* Update By Jean On 18/09/2014 */
+.injection_step_2 .bottle { bottom: 180px; }
+.injection_step_2 .needle { bottom: 510px; right: -180px;}
+.injection_step_2 .hand_2 { bottom: 300px; right: -360px;}
+.injection_step_3 .syringe { top: -310px; }
+.injection_step_3 .syringe_cover { top: 420px; }
+.injection_step_3 .needle { top: 416px; }
+.injection_step_3 .arrow_down { top: 440px; }
+.injection_step_3 .tips { margin-top: 36px; }
+.injection_step_3 .tips p {
+	margin-left: 10px;
+	/*removed by robbie start*/
+	/*margin-bottom: 20px; */
+	/*removed by robbie end*/
+}
+.injection_step_4 .syringe { /*top: -430px;*/ bottom:376px; }  /* Update By Jean On 27/10/2014 */
+.injection_step_4 .bottle { bottom: -116px; }  /* Update By Jean On 26/09/2014 */
+.injection_step_4 .needle { /*top: 410px;*/ bottom:404px; }  /* Update By Jean On 27/10/2014 */
+.injection_step_4 .arrow_down { top: 490px; }
+.injection_step_5 .syringe, .injection_step_6 .syringe {
+	bottom: 140px;  /* Update By Jean On 26/09/2014 */
+	left: 140px;
+}
+.injection_step_5 .syringe_plugner, .injection_step_6 .syringe_plugner {
+	bottom: 408px;  /* Update By Jean On 26/09/2014 */
+	left: 140px;
+}
+.injection_step_5 .bottle, .injection_step_6 .bottle {
+	bottom: -88px;  /* Update By Jean On 26/09/2014 */
+	left: 140px;
+}
+.injection_step_5 .needle, .injection_step_6 .needle {
+	bottom: 680px;  /* Update By Jean On 26/09/2014 */
+	left: 140px;
+}
+.injection_step_5 .arrow_down, .injection_step_6 .arrow_up { bottom: 660px; }
+.injection_step_5 .tips, .injection_step_6 .tips {
+	width: 380px;  /* Update By Jean On 26/09/2014 */
+	bottom: 320px;  /* Update By Jean On 26/09/2014 */
+	left: 40px;
+}
+.injection_step_5 .tips p, .injection_step_6 .tips p { margin-left: 0; }  /* Update By Jean On 26/09/2014 */
+.injection_step_6 .syringe_plugner { bottom: 300px; }  /* Update By Jean On 26/09/2014 */
+.injection_step_6 .needle { bottom: 400px; }  /* Update By Jean On 26/09/2014 */
+.injection_step_6 .tips { bottom: 380px; }  /* Update By Jean On 26/09/2014 */
+.injection_step_7 .bottle { bottom: 400px; }
+.injection_step_7 .needle { bottom: 444px; }
+.injection_step_7 .arrow_left_right { bottom: 440px; }
+.injection_step_7 .tips p, .injection_step_8 .tips p { margin-left: 10px; }
+.injection_step_8 .bottle { bottom: 120px; }
+.injection_step_8 .btn_next { top: 250px; right:22%; }
+.injection_step_8 .tips { width: 420px; }
+.injection_step_9 .syringe {
+	top: 270px;
+	left: 180px;
+}
+.injection_step_9 .syringe_plugner {
+	top: 430px;
+	left: 180px;
+}
+.injection_step_9 .bottle {
+	top: -70px;
+	left: 180px;
+}
+.injection_step_9 .needle {
+	top: 500px;
+	left: 180px;
+}
+.injection_step_9 .arrow_up { top: 380px; right:42%;}
+.injection_step_9 .tips, .injection_step_10 .tips {
+	width: 380px;  /* Update By Jean On 26/09/2014 */
+	top: 80px;
+	left: 50px;
+}
+.injection_step_9 .tips p, .injection_step_10 .tips p { margin-left: 10px; }
+.injection_step_10 .syringe {
+	top: 120px;
+	left: 180px;
+}
+.injection_step_10 .syringe_plugner {
+	top: 280px;
+	left: 180px;
+}
+.injection_step_10 .bottle {
+	top: -70px;
+	left: 180px;
+}
+.injection_step_10 .needle {
+	top: 540px;
+	left: 180px;
+}
+.injection_step_10 .arrow_down 
+{ 
+    top: 430px;  /* Update By Jean On 26/09/2014 */ 
+    right: 42%; 
+}
+/*removed by robbie start*/
+/*.injection_step_10 .tips p { margin-bottom: 20px; }*/
+/*removed by robbie end*/
+.skin, .skin_cover { margin-top: -22px; }
+.skin { width: 254px; }
+.skin_cover { width: 96px; }
+.injection_step_11 .needle, .injection_step_15 .needle {
+	bottom: 380px;
+	left: 110px;
+}
+.injection_step_11 .hand_2, .injection_step_15 .hand_2 {
+	bottom: 180px;
+	left: 310px;
+}
+.injection_step_11 .arrow_left, .injection_step_15 .arrow_left { bottom: 140px; }
+.injection_step_11 .tips, .injection_step_12 .tips, .injection_step_13 .tips, .injection_step_14 .tips, .injection_step_15 .tips {
+	/*width: 420px;*/  /* Update By Jean On 26/09/2014 */
+	top: 40px;
+	right: 50px;
+}
+.injection_step_12 .tips, .injection_step_13 .tips, .injection_step_14 .tips, .injection_step_15 .tips { top: 120px; }  /* Update By Jean On 28/10/2014 */
+.injection_step_11 .tips p, .injection_step_12 .tips p, .injection_step_13 .tips p, .injection_step_14 .tips p, .injection_step_15 .tips p { margin-left: 4px; }  /* Update By Jean On 26/09/2014 */
+.injection_step_12 .syringe {
+	bottom: 350px;
+	left: 200px;
+}
+.injection_step_12 .syringe_plugner {
+	bottom: 386px;
+	left: 440px;
+}
+.injection_step_12 .needle {
+	bottom: 380px;
+	left: 300px;
+}
+.injection_step_12 .arrow_left, .injection_step_13 .arrow_left { bottom: 200px; }
+.injection_step_13 .syringe {
+	bottom: 350px;
+	left: -120px;
+}
+.injection_step_13 .syringe_plugner {
+	bottom: 386px;
+	left: 120px;
+}
+.injection_step_13 .needle {
+	bottom: 380px;
+	left: 200px;
+}
+.injection_step_14 .syringe {
+	bottom: 350px;
+	left: -120px;
+}
+.injection_step_14 .syringe_plugner {
+	bottom: 386px;
+	left: 20px;
+}
+.injection_step_14 .needle {
+	bottom: 380px;
+	left: 40px;
+}
+.injection_step_14 .arrow_right { bottom: 200px; }
+.injection_step_completed .tips {
+	font-size: 30px!important;  /* Update By Jean On 26/09/2014 */
+	width: 620px;
+	min-height: 440px;
+	padding: 50px;
+	margin-top: 60px;
+}
+.injection_step_completed .tips p { margin-left: 0; }  /* Update By Jean On 26/09/2014 */
+.injection_step_completed .btn {
+	width: 600px;
+	margin: 70px auto 0;
+}
+.injection_step_completed .btn li a {
+	height: 72px;
+	line-height: 68px;  /* Update By Jean On 14/11/2014 */
+	padding: 0 30px;
+	margin-bottom: 20px;
+	border-width: 2px;
+	border-radius: 20px;
+}
+
+/* Update By Jean On 19/09/2014 */
+.instructions_small > img { height: 100px !important; }
+.kit_list {
+	margin-top: 70px;
+    /*modified by robbie start*/
+	/*max-height:360px;*/
+	max-height:340px;
+	/*modified by robbie end*/
+}
+/*added by robbie start*/
+.kit_list_panel
+{
+    /*modified by robbie start*/
+	/*height:360px;*/
+	height:340px;
+	/*modified by robbie end*/
+}
+/*added by robbie end*/
+.kit_list .sub_nav li {
+	height: 84px;
+	line-height: 84px;
+	margin-right:-140px;  /* Update By Jean On 09/10/2014 */
+}
+.kit_list .sub_nav li a {
+	padding-right: 0;  /* Update By Jean On 09/10/2014 */
+	border-bottom-width: 2px;
+}
+.kit_list .sub_nav li strong {  /* Update By Jean On 09/10/2014 */
+	width:140px;
+	margin-left:30px;
+}
+.btn_add {
+	left: 22px;
+	bottom: 70px;
+	width: 704px;
+	height: 100px;
+	line-height: 100px;
+	padding-left: 20px;
+	font-size:32px!important;  /* Update By Jean On 22/10/2014 */
+}
+.top_action {
+	margin: -20px -20px 40px;
+	padding: 0 20px;
+	height: 88px;
+	line-height: 88px;
+}
+.kit_detail input[type='button'] {
+	width: 160px;
+	height: 88px;
+	font-size: 32px!important;
+}
+.kit_detail span { right:20px; }  /* Update By Jean On 22/10/2014 */
+.kit_detail input[type='text'] {
+	width: 420px;
+	height: 88px;
+	/*line-height: 88px;*/  /* Update By Jean On 20/10/2014 */
+}
+.kit_detail input[type='checkbox'] {
+	width: 36px;
+	height: 36px;
+	margin-left: -36px;
+}
+.kit_detail h4 {
+	font-size: 30px!important;
+	padding-left: 20px;
+	margin-top: 80px;
+	margin-bottom: 10px;
+}
+.kit_detail h4.small_text {
+	font-size: 22px!important;
+	margin-top: 20px;
+	margin-bottom: 16px;
+}
+.kit_detail ul { margin-bottom: 60px; }
+.kit_detail li {
+	height: 88px;
+	line-height: 88px;
+	padding: 0 20px;
+}
+.kit_detail li strong { font-size: 30px!important; }
+.kit_detail .spe_check:before {
+	width: 36px;
+	height: 36px;
+}
+/*added by robbie end*/
+
+.kit_cont li { margin-bottom: 30px; }
+.slide_show {
+	width:728px;  /* Update By Jean On 22/09/2014 */
+	height: 480px;
+	margin-top: 80px;
+}
+.slide_show .left, .slide_show .right {
+	width: 46px;
+	height: 480px;
+}
+.slide_show .left span, .slide_show .right span { height: 126px; }
+.slide_show .center {
+	width: 636px;
+	height: 480px;
+}
+/*updated by robbie start*/
+/*.slide_show .center ul {
+	width: 636px;
+	height: 480px;
+}
+.slide_show .center li {
+	width: 636px;
+	height: 480px;
+}
+.slide_show .center li div {
+	width: 636px;
+	height: 480px;
+	padding: 0 60px; 
+}*/
+.slide_show .center .liDiv
+{
+    width: 636px;
+	height: 480px;
+}
+.slide_show .center .liDiv div
+{
+    width: 636px;
+	height: 480px;
+	padding: 0 60px; 
+	font-size: 28px!important;
+}
+/*updated by robbie end*/
+.slide_show sup { font-size: 16px; }
+.pdf_wrap {
+	margin-top: -12px;
+	box-shadow: 0 0 16px rgba(0,0,0,.6);
+}
+.pdf_wrap img { height: 100% !important; }
+.settings .logo { margin-bottom: 50px; }
+.settings section {
+	margin-top: 20px;
+	padding: 30px;
+	border-radius: 16px;
+	box-shadow: 2px 2px 4px rgba(0,0,0,.4);  /* Update By Jean On 07/10/2014 */
+}
+.settings section h4 {
+	height: 68px;
+	line-height: 68px;
+	font-size: 36px!important;
+	margin-bottom: 16px;
+}
+.settings section h4 img { margin-top: -8px; }
+.settings .btn_radio 
+{
+    /*removed by robbie start*/
+	/*width: 104px;
+	border-radius: 34px;
+	border-width: 2px;*/	
+    /*removed by robbie end*/
+	height: 64px;
+}
+.settings section p span { width: 68px; }
+.settings section p span + span { width: 460px; }
+.btn_save { bottom: 90px; }
+/*add by stefan start 24/09/2014*/
+/*.carousel .x-carousel-indicator-horizontal
+{
+    top: 872px!important;
+}*/
+/*add by stefan end 24/09/2014*/
+/*add by stefan start 24/09/2014*/
+.pdf_notification
+{
+    position:absolute; 
+    width:120px; 
+    height:40px; 
+    line-height: 40px;
+    background:#1C1C1C; 
+    bottom:140px;
+    z-index: 19;
+    color: #fff;
+    text-align: center;
+}
+/*add by stefan end 24/09/2014*/
+
+/* Update By Jean On 07/10/2014 */
+.guide .editor {
+	min-height:440px; 
+	box-shadow:2px 2px 4px rgba(0,0,0,.4); 
+}
+.guide .btn a {
+	margin:40px auto;
+	width:440px;
+	height: 72px;
+	line-height: 68px;  /* Update By Jean On 14/11/2014 */
+	border-width:2px;
+	border-radius:20px;
+}
+.act_btn_next  
+{
+    /*updated by robbie start*/
+	/*bottom:16px;*/
+	bottom:60px;
+	/*updated by robbie end*/
+}
+
+/* Update By Jean On 08/10/2014 */
+.bg_content {
+	margin:-20px;
+	padding:20px;
+	background-position:0 -60px;
+}
+
+/* Update By Jean On 14/10/2014 */
+.popup_message_3 {  
+	border-radius:20px;
+	top: 300px;
+}
+
+.popup_message_4 {  
+	border-radius:20px;
+	bottom: 20px;
+}
+/*added by robbie start*/
+.popup_message_3 .title, .popup_message_4 .title
+{
+    margin: 20px 20px -20px 20px;
+    font-size: 32px!important;
+}
+/*added by robbie end*/
+.popup_message_3 p, .popup_message_4 p { margin:40px; }
+.popup_message_3 .bottom_act, .popup_message_4 .bottom_act { border-top-width:2px; }
+.popup_message_3 .bottom_act a, .popup_message_4 .bottom_act a {
+	height:90px;
+	line-height:90px;
+	font-size:32px;
+}
+.popup_message_3 .bottom_act a:first-child, .popup_message_4 .bottom_act a:first-child { border-right-width:2px; }
+
+.notePrivacy
+{
+	padding: 0 20px;
+	font-size: 22px!important;
+	line-height: 28px;
+	margin-left: -20px;
+}
