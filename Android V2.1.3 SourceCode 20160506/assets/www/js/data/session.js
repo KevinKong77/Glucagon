@@ -1,0 +1,41 @@
+﻿var commonSession = {
+    selectedUniqueID: null,
+    selectedDate: null,
+    selectedDate_EN: null,
+    agreeGuide: null,
+    isReInit: null
+};
+
+var imageViewSession = {
+    view: null,
+    x0: null, 
+    y0: null, 
+    x1: null,
+    y1: null,
+    x2: null,
+    y2: null,
+    touch0: null, 
+    touch1: null, 
+    centerX0: null, 
+    centerY0: null,
+    x00: null, 
+    y00: null, 
+    x11: null, 
+    y11: null, 
+    touch00: null, 
+    touch11: null, 
+    centerX1: null,
+    centerY1: null,
+    viewWidth: null, 
+    viewHeight: null,
+    top: null, 
+    left: null, 
+    topMin: null, 
+    leftMin: null, 
+    topMax: null, 
+    leftMax: null,
+    parentObject: null,
+    touchTopPos: null,
+    touchLeftPos: null,
+    topBarHeight: null
+};

@@ -1,0 +1,1571 @@
+@charset "utf-8";
+
+/*added by robbie start*/
+.x-innerhtml {
+	box-sizing: border-box!important;
+}
+
+.x-html ul li
+{
+    list-style-type: none!important;
+}
+
+.x-inner
+{
+    background-color: transparent!important;
+}
+
+/*div[class^=x-]:not([class*=scroll]):not([class*=inner])
+{
+	background-color: transparent!important;
+}*/
+
+.x-mask-message
+{
+    color: #fff!important;
+    bottom:25px!important;
+    z-index: 99999!important;
+}
+
+.x-loading-spinner-outer
+{
+     height: 170px!important;
+}
+
+.x-loading-spinner>span.x-loading-top
+{
+    background-color: rgba(255,255,255,0.99)!important;
+}
+
+.x-loading-spinner>span.x-loading-right
+{
+    background-color: rgba(255,255,255,0.25)!important;
+}
+
+.x-loading-spinner>span.x-loading-bottom
+{
+    background-color: rgba(255,255,255,0.4)!important;
+}
+
+.x-loading-spinner>span.x-loading-left
+{
+    background-color: rgba(255,255,255,0.7)!important;
+}
+
+.x-mask-inner
+{
+    border-radius: 8px!important;
+    background: rgba(0,0,0,0.5)!important;
+    width: 250px!important;
+}
+
+.x-mask-inner .x-innerhtml
+{
+    position: relative!important;
+    bottom: -30px!important;
+}
+
+.loadMask 
+{
+    top: -5px;
+    background-color:#eeeeee;
+    color:#222222; 
+    height:16px;
+    width:100%; 
+    border:1px solid #bbbbbb; 
+    text-align:center; 
+    position:relative;
+}
+
+.loadMask .loadPercent
+{
+    height:16px; 
+    position:absolute; 
+    left:0; 
+    top: 0; 
+    width:100%; 
+    line-height:16px; 
+    z-index:100;
+    font-style:italic;
+    color: #000;
+}
+
+.loadMask .loadProgress
+{
+    background-color:#8DAF4D; 
+    height:16px; 
+    width:0; 
+    position:absolute; 
+    left:0; 
+    top: 0; 
+    z-index:10;
+}
+
+.x-fullscreen
+{
+    background-color: transparent!important;
+}
+
+*:not([class*=picker]){
+    box-sizing: content-box!important;
+}
+
+.x-toolbar
+{
+    display: none!important;
+}
+
+.x-msgbox .x-toolbar
+{
+    display: block!important;
+}
+
+.x-msgbox
+{
+    background: #FFF!important;
+    border: none!important;
+}
+
+.x-msgbox .x-title, .x-msgbox .x-msgbox-text
+{
+    color: #000!important;
+    text-shadow: none!important;
+}
+
+.x-msgbox .x-button
+{
+    background: #FFF!important;
+    border: none!important;
+}
+
+.x-msgbox .x-button-label
+{
+    color: #4498FD!important;
+    font-size: 16px!important;
+}
+
+.x-picker, .x-picker-inner
+{
+    background: transparent!important;
+    border: none!important;
+}
+.x-picker-center, .x-picker-right, .x-picker-left
+{
+    border: none!important;
+}
+
+.x-scroll-bar-y.active>*{
+	width: 2px!important;
+}
+.x-scroll-indicator.rounded>:nth-child(2){	content:none!important;}.x-scroll-indicator.rounded>*{	background-color: #000!important;}
+
+
+::-webkit-scrollbar {
+    width: 4px!important;
+}
+::-webkit-scrollbar-thumb {
+    /* iScroll CSS, thanks */
+    background-color: rgba(0, 0, 0, 0.5)!important;
+    border: 1px solid rgba(255, 255, 255, 0.9)!important;
+    border-radius: 4px!important;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background-color: rgba(0, 0, 0, 0.6)!important;
+}
+ 
+/*added by robbie end*/
+
+.wrap {
+	width: 100%;
+	position: absolute;
+	z-index: 9999;
+	top: 110px;
+	background-color: red;
+}
+
+html, body {
+	font-family: Helvetica, "Helvetica Neue", "Myriad Pro", Arial, sans-serifhel;
+	background-color: #fff!important;
+	font-size: 14px!important;
+	color: #000;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+body {
+	background: url(../img/bg.png) no-repeat!important;
+	background-size: 100% 100%!important;
+}
+h1 {
+	font-size: 24px!important;
+	color: #000;
+	font-weight: normal;
+}
+h3 {
+	font-size: 14px!important;
+	color: #000;
+	font-weight: normal;
+}
+.btn_1, .btn_2 {
+	width: 38px;
+	height: 25px;
+	text-indent: -9999px;
+	border: none;
+	background: url(../img/btn_nav_back.png) no-repeat;
+	background-size: 100% 100%;
+	cursor: pointer;
+	transition: all 0.18s ease-out;
+	-webkit-transition: all 0.18s ease-out;  /* Update By Jean On 23/10/2014 */
+}
+.btn_2 {
+	width: 32px;
+	height: 25px;
+	background-image: url(../img/btn_isi.png);
+}
+:focus {
+	border: none;
+	outline: none;
+}
+.float_l { float: left !important; }
+.float_r { float: right !important; }
+.clearit { clear: both !important; }
+.red { color: #e51b23; }
+.green { color: #007c3b; }
+.relative { position: relative; }
+.item_del 
+{
+    background: red;
+    color: #FFF;
+    width: 50px;
+    text-align: center;
+}
+.border-box {
+	box-sizing: border-box !important;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+}
+.none { display: none; }
+
+sup {
+	vertical-align:super;
+	font-size:8px;
+}
+
+header {
+	padding: 0 10px;
+	height: 40px;
+	/*added by robbie start*/
+	margin-bottom: -2px;
+	/*added by robbie end*/
+	line-height: 40px;
+	background: url(../img/bg_header.png) no-repeat;
+	background-size: 100% 100%;
+	font-size: 16px!important;  /* Update By Jean On 02/09/2014 */
+	color: #fff;
+	text-align: center;
+	position: relative;
+	z-index: 999;
+}
+
+footer {
+	overflow: hidden;
+	box-sizing: border-box !important;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	padding: 0 5px;
+	width: 100%;
+	height: 44px;
+	line-height: 44px;
+	color: #f00;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	/*modified by robbie start*/
+	/*z-index:1; /* Update By Jean On 04/09/2014 */
+	z-index: 999;
+	/*modified by robbie end*/
+}
+footer.pdf_footer { /* Update By Jean On 16/09/2014 */
+	height:48px;
+	line-height:48px;
+	background:url(../img/bg_PDFFooter.png) no-repeat;
+	background-size:100% 100%;
+	box-shadow: 0 -1px 4px rgba(0,0,0,.2), 0 -2px 6px rgba(0,0,0,.4);
+	z-index: 1;
+}
+
+/*added by robbie start*/
+footer .float_r
+{
+    padding-right: 10px!important;
+}
+
+footer span
+{
+    line-height: 50px;
+}
+
+.scrollableContent .x-scroll-bar-y.active>*{
+	width: 0px!important;
+}
+/*added by robbie end*/
+
+
+/*added by robbie start*/
+
+.introMedia
+{
+    width: 100%;
+}
+
+.introMedia .x-inner
+{
+    background: transparent!important;
+}
+
+.introMedia .x-html
+{
+    padding: 0px!important;
+}
+/*added by robbie end*/
+
+.main {
+	box-sizing: border-box !important;         /*Add !important 10/9/2014-*/
+	-webkit-box-sizing: border-box !important; /*Add !important 10/9/2014-*/
+	-moz-box-sizing: border-box !important;    /*Add !important 10/9/2014-*/
+	padding: 10px;
+	box-shadow: 0 -1px 0 rgba(255,255,255,1);
+	margin-top: -2px;
+	position: relative;
+}
+
+/*Add by Stefan start 24/09/2014*/
+.pdf_main {
+	box-sizing: border-box !important;         
+	-webkit-box-sizing: border-box !important; 
+	-moz-box-sizing: border-box !important;    
+	box-shadow: 0 -1px 0 rgba(255,255,255,1);
+	margin-top: 6px;
+	background: #FFF;
+	position: relative;
+	z-index:9;
+}
+/*Add by Stefan end*/
+
+.fixed_height { overflow:hidden; }  /* Update By Jean On 05/09/2014 */
+.fixed_height_pdf /* add by Stefan On 05/09/2014 */  	
+{
+    /*background:url(../img/loading.png) no-repeat;
+    background-size: 100% 100%;*/
+}  
+.logo {
+	margin-left: 2%;
+	text-align: center;
+}
+.logo_r { margin: 15px 10px 0 0; }
+.action {
+	margin-right: 2%;
+	margin-top: -5px;
+	text-align: center;
+}
+.action span {
+	display: block;
+	width: 100px;
+	height: 21px;
+	line-height: 21px;
+}
+
+.media
+{
+    /*added by robbie start*/
+    text-align: center;
+	min-height: 100px;
+	font-weight: bold;
+	font-size: 14px!important;
+	/*added by robbie end*/
+	clear: both;
+	
+	/*Modified by robbie start*/
+	/*width: 95%;*/
+	width: 90%;
+	/*Modified by robbie end*/
+	margin: 10px auto;
+	border-radius: 20px;
+	background-color: #FFF;
+	box-shadow:1px 1px 2px rgba(0,0,0,.4);  /* Update By Jean On 07/10/2014 */
+	padding: 5px;
+}
+/*removed by robbie start*/
+/*.media video { margin: 0 auto; }*/
+/*removed by robbie end*/
+
+/*added by robbie start*/
+.media img 
+{
+    clear: both;
+	border-radius: 20px;
+	background: transparent!important;
+}
+
+.x-carousel-indicator span:not([class*=active])
+{
+    background: #E5E5E5!important;
+}
+
+.x-carousel-indicator-active
+{
+    background: white!important;
+}
+
+/*add by stefan start 24/09/2014*/
+/*.carousel .x-carousel-indicator-horizontal
+{
+    top: 406px!important;
+}*/
+
+.carousel img
+{
+    width: 100%;
+}
+/*add by stefan end 24/09/2014*/
+
+.media_repeat
+{
+    position: absolute;
+    left: 5%;
+    bottom: 5px;
+    background: url(../img/bg_header.png) no-repeat;
+    text-align: center;
+	min-height: 100px;
+	clear: both;
+	width: 90%;
+	margin: 10px auto;
+	border-radius: 20px;
+	box-shadow: 0 2px 2px rgba(0,0,0,.3);
+}
+/*added by robbie end*/
+
+.instructions {
+	width: 90%;
+	margin: 15px auto;
+	text-align: center;
+	/*modified by robbie start*/
+	/*font-size: 22px;
+	line-height: 24px;*/
+	font-size: 16px!important;
+	line-height: 18px;
+	/*modified by robbie end*/
+	/*added by robbie start*/
+	font-weight: bold;
+	/*added by robbie end*/
+}
+.instructions_small {  /* Update By Jean On 12/09/2014 */
+	width: 90%;
+	line-height: 20px;
+	margin: 35px auto 15px;
+	/*modified by robbie start*/
+	/*font-size:15px;*/
+	font-size:15px!important;
+	/*modified by robbie end*/
+}
+.info {
+	box-sizing: border-box !important;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	width: 100%;
+	margin: 0 -10px;
+	height: 326px;
+	padding-top: 225px;
+	background: url(../img/emergencyChecklist_intro.png) no-repeat center top;
+	background-size: 95% 95%;
+	position: absolute;
+	top: 70px;
+	text-align: center;
+	z-index: 9996;
+}
+/*added by robbie start*/
+.watch_info {
+	box-sizing: border-box !important;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	width: 100%;
+	margin: 0 -10px;
+	height: 326px;
+	padding-top: 225px;
+	background: url(../img/watchTutorial_intro.png) no-repeat center top;
+	background-size: 95% 95%;
+	position: absolute;
+	top: 70px;
+	text-align: center;
+	z-index: 9996;
+}
+/*added by robbie end*/
+.main_nav {  /* Update By Jean On 11/09/2014 */
+	margin:45px auto 0;
+	width: 298px;
+}
+.main_nav li:first-child {  /* Update By Jean On 11/09/2014 */
+	background: none;
+	padding: 0;
+	height: auto;
+	margin-bottom: 10px;
+	/*Add by Jean On 11/09/2014 Start*/
+	background-color:transparent;
+	border:none;
+	border-radius:0;
+	/*Add by Jean On 11/09/2014 End*/
+}
+.main_nav li { /* Update By Jean On 11/09/2014 */
+	box-sizing: border-box !important;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	height: 36px;
+	line-height: 34px;  /* Update By Jean On 12/11/2014 */
+	padding: 0 15px;
+	/*background: url(../img/myKit_labelBG.png) no-repeat;*/
+	background-size: 100% 100%;
+	margin-bottom: 5px;
+	cursor: pointer;
+	/*Add by Jean On 11/09/2014 Start*/
+	border:1px #a9abaa solid;
+	border-radius:10px;
+	background-color:#fff;
+	/*Add by Jean On 11/09/2014 End*/
+}
+
+.main_nav li + li img { margin-right: 15px; margin-top:-3px; }  /* Update By Jean On 12/11/2014 */
+
+.sub_nav {
+	box-sizing: border-box !important;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	/*width: 300px;*/   /* Update By Jean On 02/09/2014 */
+	margin: 60px auto 0;
+	background-color: #FFF;
+	border: 1px #aaa solid;
+	border-left: none;
+	border-right: none;
+	/*padding-left: 15px;*/   /* Update By Jean On 02/09/2014 */
+	font-weight:bold;  /* Update By Jean On 22/10/2014 */
+}
+.sub_nav li {
+	height: 30px;
+	line-height: 30px;
+	/*border-bottom: 1px #aaa solid;*/    /* Update By Jean On 02/09/2014 */
+	cursor: pointer;
+	padding-left: 15px;       /* Update By Jean On 02/09/2014 */
+}
+.sub_nav li:last-child a { border: none; }  /* Update By Jean On 02/09/2014 */
+.sub_nav .iocn_arrow {
+	float: right;
+	margin-top: 8px;
+	margin-right: 30px;
+	width: 10px;
+	height: 14px;
+	background: url(../img/menu_disclosure.png) no-repeat;
+	background-size: 100% 100%;
+}
+.editor 
+{
+	margin-top: 20px;
+	border-radius: 16px;  /* Update By Jean On 07/10/2014 */
+	background-color: #FFF;
+	padding: 15px;    /* Update By Jean On 02/09/2014 */
+	padding-right: 5px;
+	/*removed by robbie start*/
+	/*min-height: 270px;  /* Update By Jean On 17/09/2014 */
+	/*removed by robbie end*/
+}
+
+.content {
+	/*height: 300px; Removed by Stefan*/
+	height: 100%;
+	padding-right: 10px;
+	/*Modified by robbie start*/
+	/*overflow-y: auto;  /* Update By Jean On 02/09/2014 */
+	overflow: hidden;
+	/*Modified by robbie end*/
+}
+
+/*Add by Stefan start 4/9/2014*/
+.note_editor
+{
+    width: 100%;
+}
+/*Add by Stefan end 4/9/2014*/
+.note_editor_scroller
+{
+    width: 100%;
+    background-color: #000;
+    border-radius: 6px;
+}
+.editor textarea 
+{
+    border: none;
+	width: 100%;
+	/*removed by robbie start*/
+	/*min-height: 270px;*/
+	/*removed by robbie end*/
+    /*added by robbie start*/
+    box-sizing: border-box!important;
+	-webkit-box-sizing: border-box!important;
+	-moz-box-sizing: border-box!important;	
+	line-height: 20px;
+    /*added by robbie end*/
+}
+.editor h1 {
+	font-size:15px!important;
+	font-weight:bold;
+}
+
+
+
+footer img  
+{
+    /*margin: 0 5px;*/
+    margin: 0 8px;  
+    /*modified by robbie end*/
+}
+footer > img { margin-top:8px; }  /* Update By Jean On 11/09/2014 */
+footer .float_l, footer .float_r {
+	color: #333;
+	position: absolute;
+	top: 0;
+}
+footer .float_r { right: 5px; }
+footer .float_l strong { margin-left:20px; }  /* Update By Jean On 11/09/2014 */
+.copyright {
+	box-sizing: border-box !important;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	width:100%;  /* Update By Jean On 02/09/2014 */
+	padding: 0 10px;
+	font-size: 11px!important;
+	text-align: center;
+	line-height: 14px;
+	position: absolute;
+	/*removed by robbie start*/
+	/*bottom: 45px;*/
+	/*removed by robbie end*/
+}
+
+
+/* Update By Jean On 02/09/2014 */
+header .float_l, header .float_r {
+	position: absolute;
+	top: 0;
+}
+header .float_r { right: 10px; }
+/*removed by robbie start*/
+/*.main_nav li:hover { color: #aaa; }*/
+/*removed by robbie end*/
+.main_nav li a img {  /* Update By Jean On 24/09/2014 */
+	float:right;
+	margin:8px 0 0 0;
+}
+.sub_nav li a {
+	display: block;
+	height: 100%;
+	color: #000;
+	border-bottom: 1px #aaa solid;
+	/*added by robbie start*/
+	text-decoration: none;
+	/*added by robbie end*/
+}
+/*removed by robbie start*/
+/*.sub_nav li a:hover { text-decoration: none; }
+.sub_nav li:hover { background-color: rgba(0,0,0,.1); }*/
+/*removed by robbie end*/
+
+.popup_message_1, .popup_message_2 {  /* Update By Jean On 07/10/2014 */
+	box-sizing: border-box !important;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	width: 94%;
+	height: 102px;
+	margin: 10px auto 0;
+	background: url(../img/emergencyInstructions_repeatStepsBG.png) no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	padding-top: 42px;
+	position: absolute;
+	/*updated by robbie start*/
+	/*bottom: 50px;*/
+	bottom: 10px;
+	/*updated by robbie end*/
+	left: 3%;
+}
+
+.popup_message_2 {  /* Update By Jean On 07/10/2014 */
+	width:90%;
+	height:124px;
+	background-image:url(../img/alert_body.png);
+	padding-top:66px;
+	bottom:150px;
+	left:5%;
+	display: none; /*add by Robbie*/
+}
+
+.popup_message_1 a, .popup_message_2 a { margin: 0 5px; }  /* Update By Jean On 07/10/2014 */
+
+
+.content p 
+{
+    /*updated by robbie start*/
+	/*line-height: 1.2;*/
+	line-height: 1.44;
+	/*updated by robbie end*/
+	margin: 10px 0;
+}
+.content ul { margin: 0 0 10px 0; }  /* Update By Jean On 17/09/2014 */
+.content li {
+    list-style: disc;
+	margin: 0 0 0 20px;
+		
+	/*updated by robbie start*/
+	/*line-height: 1.2;*/
+	line-height: 1.44;
+	/*updated by robbie end*/
+}
+
+/*added by robbie start*/
+.nolidisc li
+{
+    list-style: none!important;
+	margin: 0 0 0 0!important;
+}
+
+.nolidisc a
+{
+    text-decoration: none!important;
+}
+/*added by robbie end*/
+
+
+.content em {  /* Update By Jean On 17/09/2014 */
+	/*removed by robbie start*/
+	/*font-style:italic;*/
+	/*removed by robbie end*/
+	/*added by robbie start*/
+	font-weight: normal!important;
+	/*added by robbie end*/
+	text-decoration:underline;
+}
+/* Update By Jean On 03/09/2014 */
+.injection_step {
+	min-height: 324px;
+	margin: 0 auto;
+}
+.injection_step .bg {
+	display: block;
+	margin: 0 0 0 70px;  /* Update By Jean On 30/10/2014 */
+}
+.injection_step .intro_1, .injection_step .intro_2, .injection_step .intro_3 {
+	position: absolute;
+	width: 70px;
+	line-height: 1.1;
+	font-weight:bold!important;  /* Update By Jean On 30/10/2014 */
+	font-size:15px!important;  /* Update By Jean On 30/10/2014 */
+}
+.injection_step .intro_1 {
+	top: 150px;
+	left: -2px;  /* Update By Jean On 30/10/2014 */
+}
+.injection_step .intro_2 {
+	top: 110px;
+	right: 10px;  /* Update By Jean On 30/10/2014 */
+}
+.injection_step .intro_3 {
+	top: 250px;
+	right: 10px;  /* Update By Jean On 30/10/2014 */
+}
+.injection_step .btn_next {
+	width: 79px;
+	height: 37px;
+	position: absolute;
+	top: 310px;
+	right: 10px;
+}
+.injection_step .popup_info_1, .injection_step .popup_info_2 {
+	box-sizing: border-box !important;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	position: absolute;
+	top: 20px;
+	width: 100%;
+	padding-top: 225px;
+	height: 296px;
+	background: url(../img/watchTutorial_intro.png) no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+}
+.injection_step .popup_info_1 {  /* Update By Jean On 11/09/2014 */
+	height:330px;
+	padding:20px;
+	background:url(../img/vp_intro_popBG.png) no-repeat;
+	background-size:100% 100%;
+	color:#fff;
+	letter-spacing:1px;
+}
+.injection_step .popup_info_1 h3 {  /* Update By Jean On 11/09/2014 */
+	text-align:left;
+	font-size:16px!important;
+	color:#fff;
+}
+.injection_step .popup_info_1 p {  /* Update By Jean On 11/09/2014 */
+	text-align:left;
+	margin-bottom:5px;
+}
+.skin, .skin_cover, .syringe, .syringe_cover, .syringe_plugner, .bottle, .needle, .bottle_top, .hand_1, .hand_2, .arrow_left_right { /* Update By Jean On 10/09/2014 */
+	width: 100%;
+	margin: 0 -10px;
+	text-align: center;
+	position: absolute;
+}
+.syringe_plugner, .skin { z-index:98; }  /* Update By Jean On 10/09/2014 */
+.syringe { z-index: 99; }  /* Update By Jean On 04/09/2014 */
+.arrow_left_right { z-index:99; }  /* Update By Jean On 09/09/2014 */
+.bottle, .syringe_cover, .skin_cover { z-index: 100; }  /* Update By Jean On 10/09/2014 */
+.bottle_top { z-index: 101; }
+.needle { z-index: 200; }
+.hand_1 { z-index: 201; }
+.hand_2 { z-index:101; }  /* Update By Jean On 05/09/2014 */
+/*added by robbie start*/
+.hand_2_img 
+{ 
+    position: absolute;
+    display: none;
+    z-index:101; 
+}
+.bottlelid_img
+{
+    position: absolute;
+    z-index:104; 
+}
+/*added by robbie end*/
+.btn_next, .arrow_up, .arrow_down { z-index: 102; }  /* Update By Jean On 09/09/2014 */
+.act_btn  
+{
+    /*updated by robbie start*/
+    /*z-index: 102; */
+    z-index: 202; 
+    /*updated by robbie end*/
+}  /* Update By Jean On 04/09/2014 */
+.needle img { cursor:pointer; }
+.arrow_up, .arrow_down {  /* Update By Jean On 04/09/2014 */
+	width: 66px;
+	height: 99px;
+	position: absolute;
+	/*updated by robbie start*/
+	right: 14%;
+	/*right: 44%;*/
+	/*updated by robbie end*/
+}
+.arrow_left, .arrow_right {  /* Update By Jean On 11/09/2014 */
+	width:99px;
+	height:66px;
+	position:absolute;
+	right:5%;
+}
+.tips {  /* Update By Jean On 05/09/2014 */
+	box-sizing: border-box !important;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	width: 225px;  /* Update By Jean On 26/09/2014 */
+	/*height: 77px;*/   
+	padding:10px 15px;  /* Update By Jean On 26/09/2014 */
+	font-size:16px!important;  /* Update By Jean On 26/09/2014 */
+	text-align: center;
+	/*background: url(../images/vp_messageBG_flipLid.png) no-repeat;
+	background-size: 100% 100%;*/ 
+	text-shadow:-1px -1px 2px rgba(0,0,0,.4);
+	background:-webkit-linear-gradient(#e6292f,#c61215);
+	background:-moz-linear-gradient(#e6292f,#c61215);
+	background:linear-gradient(#e6292f,#c61215);
+	border:2px solid rgba(255,255,255,.95); 
+	border-radius:15px;  /* Update By Jean On 07/10/2014 */
+	box-shadow:1px 1px 2px rgba(0,0,0,.4);  /* Update By Jean On 07/10/2014 */
+	color: #fff;
+	margin:10px auto 0;
+	position: relative;
+	z-index: 103;
+}
+.tips p { margin-left: -5px; }
+/*added by robbie start*/
+.tips a
+{
+    color: #3a4c92;
+}
+/*added by robbie end*/
+.act_btn {
+	width: 82px;
+	height: 37px;
+	position: absolute;
+	bottom: 50px;  /* Update By Jean On 05/09/2014 */
+}
+
+.injection_step_1 .bottle { bottom: 90px; }
+.injection_step_1 .bottle_top { bottom: 274px; }
+.injection_step_1 .bottle_top img { margin-left: -3px; }
+.injection_step_1 .needle { bottom: 245px; }
+.injection_step_1 .arrow_up { bottom: 230px; }
+.injection_step_1 .hand_1 { bottom: 50px; }  /* Update By Jean On 04/09/2014 */
+.injection_step_1 .hand_1 img { margin-left: 110px; }  /* Update By Jean On 04/09/2014 */
+.injection_step_1 .tips {
+	/*height: 98px;*/  /* Update By Jean On 05/09/2014 */
+	line-height: 1.1;
+	text-align: left;
+}
+.injection_step_1 .tips p { margin-left: 5px; }
+/* Update By Jean On 04/09/2014 */
+.injection_step_2 .bottle { bottom: 90px; }
+.injection_step_2 .needle { bottom: 255px; right:-90px; }  /* Update By Jean On 19/09/2014 */
+.injection_step_2 .hand_2 { bottom: 150px; right:-180px; }  /* Update By Jean On 19/09/2014 */
+
+.injection_step_3 .syringe { top: -155px; }
+.injection_step_3 .syringe_cover { top: 210px; }
+.injection_step_3 .needle { top: 208px; }
+.injection_step_3 .arrow_down { top:220px; }
+.injection_step_3 .tips {
+	margin-top: 18px;
+	/*height: 148px;*/  /* Update By Jean On 05/09/2014 */
+	line-height: 1.1;
+	text-align: left;
+}
+.injection_step_3 .tips p {
+	margin-left: 5px;
+	/*removed by robbie start*/
+	/*margin-bottom: 10px; */
+	/*removed by robbie end*/
+}
+
+.injection_step_4 .syringe { /*top: -215px;*/ bottom:188px; }  /* Update By Jean On 27/10/2014 */
+.injection_step_4 .bottle { bottom: -58px; }  /* Update By Jean On 26/09/2014 */
+.injection_step_4 .needle { /*top: 205px;*/ bottom:202px; }  /* Update By Jean On 27/10/2014 */
+.injection_step_4 .arrow_down { top: 220px; }
+
+/* Update By Jean On 05/09/2014 */
+.injection_step_5 .syringe, .injection_step_6 .syringe { bottom: 70px; left:70px; }  /* Update By Jean On 26/09/2014 */
+.injection_step_5 .syringe_plugner, .injection_step_6 .syringe_plugner { bottom: 204px; left:70px; }  /* Update By Jean On 26/09/2014 */
+.injection_step_5 .bottle, .injection_step_6 .bottle { bottom: -44px; left:70px; }  /* Update By Jean On 26/09/2014 */
+.injection_step_5 .needle, .injection_step_6 .needle { bottom: 340px; left:70px; }  /* Update By Jean On 26/09/2014 */
+.injection_step_5 .arrow_down, .injection_step_6 .arrow_up { bottom:300px; right:50%; }  /* Update By Jean On 26/09/2014 */
+.injection_step_5 .tips, .injection_step_6 .tips {
+	position:absolute;
+	width:190px;  /* Update By Jean On 26/09/2014 */
+	bottom:160px;  /* Update By Jean On 26/09/2014 */
+	left:5px;
+	line-height:1.1;
+	text-align:left;
+}
+.injection_step_5 .tips p, .injection_step_6 .tips p { margin-left: 0; }  /* Update By Jean On 26/09/2014 */
+.injection_step_6 .syringe_plugner { bottom:150px; }  /* Update By Jean On 26/09/2014 */
+.injection_step_6 .needle { bottom: 200px; }  /* Update By Jean On 26/09/2014 */
+.injection_step_6 .tips { bottom:190px; }  /* Update By Jean On 26/09/2014 */
+
+/* Update By Jean On 09/09/2014 */
+.injection_step_7 .bottle { bottom: 180px; }
+.injection_step_7 .needle { bottom: 202px; }
+.injection_step_7 .arrow_left_right { bottom: 200px; }
+.injection_step_7 .tips, .injection_step_8 .tips {
+	margin-top:0;
+	line-height: 1.1;
+	text-align: left;
+}
+.injection_step_7 .tips p, .injection_step_8 .tips p { margin-left: 5px; }
+.injection_step_8 .bottle { bottom: 60px; }
+.injection_step_8 .btn_next { top:110px; right:17%; }
+/*.injection_step_8 .tips { width:210px; }*/  /* Update By Jean On 26/19/14 */
+
+.injection_step_9 .syringe { top: 135px; left:90px; }
+.injection_step_9 .syringe_plugner { top: 215px; left:90px; }
+.injection_step_9 .bottle { top: -35px; left:90px; }
+.injection_step_9 .needle { top: 250px; left:90px; }
+.injection_step_9 .arrow_up { top:190px; right:40%; }
+.injection_step_9 .tips, .injection_step_10 .tips {
+	position:absolute;
+	width:190px;  /* Update By Jean On 26/09/2014 */
+	top:40px;
+	left:5px;
+	line-height:1.1;
+	text-align:left;
+}
+.injection_step_9 .tips p, .injection_step_10 .tips p { margin-left: 5px; }
+.injection_step_10 .syringe { top: 60px; left:90px; }
+.injection_step_10 .syringe_plugner { top: 140px; left:90px; }
+.injection_step_10 .bottle { top: -35px; left:90px; }
+.injection_step_10 .needle { top: 270px; left:90px; }
+.injection_step_10 .arrow_down { top:215px; right:40%; }  /* Update By Jean On 26/09/2014 */
+/*removed by robbie start*/
+/*.injection_step_10 .tips p { margin-bottom: 10px; }*/
+/*removed by robbie end*/
+
+/* Update By Jean On 10/09/2014 */
+.skin, .skin_cover { 
+	margin-top:-11px; 
+	text-align:left;
+}
+.skin {
+	width:127px;
+	height:100%;
+	background:url(../img/skin.png) no-repeat;
+	background-size:100% 100%;
+}
+.skin_cover {
+	width:48px;
+	height:100%;
+	background:url(../img/skin_cover.png) no-repeat;
+	background-size:100% 100%;
+}
+.injection_step_11 .needle, .injection_step_15 .needle { bottom: 190px; left:30px; }  /* Update By Jean On 11/09/2014 */
+.injection_step_11 .hand_2, .injection_step_15 .hand_2 { bottom: 90px; left:130px; }  /* Update By Jean On 11/09/2014 */
+.injection_step_11 .arrow_left, .injection_step_15 .arrow_left { bottom: 70px; }  /* Update By Jean On 11/09/2014 */
+.injection_step_11 .tips, .injection_step_12 .tips, .injection_step_13 .tips, .injection_step_14 .tips, .injection_step_15 .tips {  /* Update By Jean On 11/09/2014 */
+	position:absolute;
+	/*width:210px;*/  /* Update By Jean On 26/09/2014 */
+	top:20px;
+	right:6px;
+	line-height:1.1;
+	text-align:left;
+}
+.injection_step_12 .tips, .injection_step_13 .tips, .injection_step_14 .tips, .injection_step_15 .tips { top: 60px; }  /* Update By Jean On 28/10/2014 */
+.injection_step_11 .tips p, .injection_step_12 .tips p, .injection_step_13 .tips p, .injection_step_14 .tips p, .injection_step_15 .tips p { margin-left: 2px; }  /* Update By Jean On 26/09/2014 */
+.injection_step_12 .syringe { bottom: 175px; left:70px; }
+.injection_step_12 .syringe_plugner { bottom: 193px; left:190px; }
+.injection_step_12 .needle { bottom: 190px; left:120px; }
+.injection_step_12 .arrow_left, .injection_step_13 .arrow_left { bottom: 100px; }
+.injection_step_13 .syringe { bottom: 175px; left:-30px; }
+.injection_step_13 .syringe_plugner { bottom: 193px; left:90px; }
+.injection_step_13 .needle { bottom: 190px; left:130px; }
+
+/* Update By Jean On 11/09/2014 */
+.injection_step_14 .syringe { bottom: 175px; left:-30px; }
+.injection_step_14 .syringe_plugner { bottom: 193px; left:40px; }
+.injection_step_14 .needle { bottom: 190px; left:50px; }
+.injection_step_14 .arrow_right {
+	bottom: 100px;
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+/* Update By Jean On 12/09/2014 */
+.injection_step_completed .tips {
+	font-size:15px!important;  /* Update By Jean On 26/09/2014 */
+	width:280px;
+	min-height:220px;
+	padding:25px;
+	margin-top:30px;
+	background:none;
+	background-color:#fff;
+	color:#000;
+	text-shadow:none;
+	text-align:left;
+}
+.injection_step_completed .tips p { margin-left:0; }  /* Update By Jean On 26/09/2014 */
+.injection_step_completed .tips a { text-decoration:underline; }
+.injection_step_completed .btn {
+	width:270px;
+	margin:35px auto 0;
+}
+.injection_step_completed .btn li a {  
+	box-sizing: border-box !important;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	display:block;
+	height: 36px;
+	line-height: 34px;  /* Update By Jean On 14/11/2014 */
+	padding: 0 15px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	border:1px #a9abaa solid;
+	border-radius:10px;
+	background-color:#fff;
+	text-align:center;
+	text-decoration:none;
+	color:#000;
+}
+.injection_step_completed .btn li a:hover { color:#aaa; }
+
+.kit_list 
+{
+	margin-top:35px;
+	/*modified by robbie start*/
+	/*max-height:130px;*/
+	/*overflow:auto;*/
+	overflow:hidden;
+	max-height:170px;
+	/*modified by robbie end*/
+}
+/*added by robbie start*/
+.kit_list_panel
+{
+    /*modified by robbie start*/
+	/*height:130px;*/
+	height:170px;
+	/*modified by robbie end*/
+}
+/*added by robbie end*/
+.kit_list .sub_nav {
+	margin:0; 
+	border-color:#e5a750;
+	overflow:hidden;  /* Update By Jean On 09/10/2014 */
+	font-weight:normal;  /* Update By Jean On 22/10/2014 */
+}
+.kit_list .sub_nav li {
+	height:42px;
+	line-height:42px;
+	margin-right:-70px;  /* Update By Jean On 09/10/2014 */
+	-webkit-transition-property: opacity,width,height,text-indent,margin-right,padding,border-width;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition:all 0.2s;  /* Update By Jean On 23/10/2014 */
+	-webkit-transition:all 0.2s;  /* Update By Jean On 23/10/2014 */
+}
+
+/*added by robbie start*/
+.kit_list .sub_nav li span { text-indent:0; }  /* Update By Jean On 21/10/2014 */
+/*added by robbie end*/
+
+.kit_list .sub_nav li a {
+	padding-right:0;  /* Update By Jean On 09/10/2014 */
+	border-bottom:1px #e5a750 solid;
+}
+.kit_list .sub_nav li strong {  /* Update By Jean On 09/10/2014 */
+	display:inline-block;
+	width:70px;
+	text-align:center;
+	background-color:#F84B4E;
+	color:#fff;
+	font-weight:normal;
+	margin-left:15px;
+}
+.btn_add {
+	position:absolute;
+	bottom:35px;
+	width:288px;
+	height:44px;
+	line-height:44px;
+	padding-left:10px;
+	background:url(../img/btn_myKit_add.png) no-repeat;
+	background-size:100% 100%;
+	cursor:pointer;
+	font-size:16px!important;  /* Update By Jean On 22/10/2014 */
+	font-weight:bold!important;  /* Update By Jean On 22/10/2014 */
+}
+
+/* Update By Jean On 15/09/2014 */
+.top_action {
+	margin:-10px -10px 20px;
+	padding:0 10px;
+	height:44px;
+	line-height:44px;
+	background-color:#f5f4f2;
+}
+.kit_detail input[type='button'] {
+	color:#007cff;
+	width:80px;
+	height:44px;
+	font-size:16px!important;
+	background:none;
+	border:none;
+	cursor:pointer;
+}
+.kit_detail span {  /* Update By Jean On 22/10/2014 */
+	position:absolute;
+	top:0;
+	right:10px;
+	color:#a9a9a9;
+	z-index:1; 
+}
+.kit_detail input[type='text'] {
+	float:right;
+	background:none;
+	border:none;
+	text-align:right;
+	width:180px;
+	height:44px;
+	line-height:normal;  /* Update By Jean On 20/10/2014 */
+	position:relative;  /* Update By Jean On 22/10/2014 */
+	z-index:2;  /* Update By Jean On 22/10/2014 */
+	border-right: 1px solid transparent; /* Added By Robbie On 30/12/2014 */
+}
+.kit_detail input[type='checkbox'] {
+	width:18px;
+	height:18px;
+	opacity:0;
+	/*updated by robbie start*/
+	/*margin-left:-18px;*/
+	margin-left:-8px;
+	/*updated by robbie end*/
+}
+.kit_detail h4 {
+	font-size:15px!important;
+	padding-left:10px;
+	line-height:1.1em;
+	margin-top:40px;
+	margin-bottom:5px;
+}
+.kit_detail h4.small_text {
+	font-size:10px!important; 
+	margin-top:10px; 
+	margin-bottom:8px;
+}
+.kit_detail ul { margin-bottom:30px; }
+.kit_detail li {
+	height:44px;
+	line-height:44px;
+	padding:0 10px;
+	background:url(../img/btn_myKitTableGray_middle.png) no-repeat;
+	background-size:100% 100%;
+	position:relative;  /* Update By Jean On 22/10/2014 */
+}
+.kit_detail ul li:first-child { background-image:url(../img/btn_myKitTableGray_top.png) }
+.kit_detail ul li:last-child { background-image:url(../img/btn_myKitTableGray_bottom.png) }
+.kit_detail li strong { font-size:15px!important; }
+.kit_detail .spe_check:before {
+	content:'';
+	display:inline-block;
+	width:18px;
+	height:18px;
+	background:url(../img/btn_checkBox_off.png) no-repeat;
+	background-size:100% 100%;
+	vertical-align:middle;
+}
+.kit_detail .spe_check_sel:before { background-image:url(../img/btn_checkBox_on.png); }
+
+
+.kit_cont li { margin-bottom:15px; }
+
+.slide_show {
+	width:300px;  /* Update By Jean On 22/09/2014 */
+	height:196px;
+	margin:0 auto;  /* Update By Jean On 22/09/2014 */
+	margin-top:40px;
+}
+.slide_show .left, .slide_show .right {
+	width:23px;
+	height:196px;
+	display:table-cell;
+	vertical-align:middle;
+}
+.slide_show .left span, .slide_show .right span {
+	display:block;
+	width:100%;
+	height:63px;
+	background:url(../img/tips_arrowLeft.png) no-repeat;
+	background-size:100% 100%;
+	cursor:pointer;
+}
+.slide_show .right span { background-image:url(../img/tips_arrowRight.png); }
+.slide_show .center {
+	width:254px;  /* Update By Jean On 19/09/2014 */
+	height:196px;
+	display:table-cell;
+}
+/*updated by robbie start*/
+/*.slide_show .center ul {
+	width:254px;
+	height:196px;
+	position:relative;
+	overflow:hidden;
+}
+.slide_show .center li {
+	width:254px;
+	height:196px;
+	background:url(../img/tips_contentBG.png) no-repeat;
+	background-size:100% 100%;
+	position:absolute;
+	top:0;
+	transition: left 0.5s;
+	-webkit-transition: left 0.5s; 
+}
+.slide_show .center li div {
+	box-sizing: border-box !important;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	width:254px;
+	height:196px;
+	line-height:1.2em;
+	padding:0 20px;
+	display:table-cell;
+	vertical-align:middle;
+}*/
+
+.slide_show .center .liDiv
+{
+    width:254px;  /* Update By Jean On 19/09/2014 */
+	height:196px;
+	background:url(../img/tips_contentBG.png) no-repeat;
+	background-size:100% 100%;
+	position:absolute;
+	top:0;
+	transition: left 0.5s;
+	-webkit-transition: left 0.5s;  /* Update By Jean On 23/10/2014 */
+}
+
+.slide_show .center .liDiv div {
+	box-sizing: border-box !important;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	width:254px;  /* Update By Jean On 19/09/2014 */
+	height:196px;
+	line-height:1.2em;
+	padding:0 20px;  /* Update By Jean On 23/10/2014 */
+	display:table-cell;
+	vertical-align:middle;
+	font-size: 14px!important;
+}
+/*updated by robbie end*/
+
+/*added by robbie start*/
+.selectedDate
+{
+    text-align: center;
+	clear: both;
+	width: 95%;
+	margin: 40px auto;
+	border-radius: 10px;
+	background-color: #FFF;
+	box-shadow: 0 2px 2px rgba(0,0,0,.3);
+	padding: 5px;
+	line-height: 50px;
+	height: 50px;
+}
+/*added by robbie end*/
+
+/*added by Stefan start*/
+.slide_show .center li a 
+{
+    color: #3a4c92;
+    text-decoration: underline;
+}
+/*added by Stefan end*/
+
+
+/* Update By Jean On 16/09/2014 */
+.pdf_wrap {
+	margin-top:-6px;
+	/*overflow:hidden; removed by Stefan 26/09/2014*/
+	/*box-shadow:0 0 8px rgba(0,0,0,.6); Removed by Stefan 23/9/2014*/
+}
+
+/*added by Stefan start 23/9/2014*/
+.pdf_wrap img
+{
+    border: 0px solid #000;
+    box-shadow:0 0 8px rgba(0,0,0,.6);
+}
+
+.pdf_wrap .x-innerhtml
+{
+    text-align: center!important;
+}
+/*added by Stefan end 23/9/2014*/
+
+.settings .logo { margin-bottom:25px; }
+.settings section {
+	margin-top:10px;
+	padding:15px;
+	background-color:#fff;
+	border-radius:8px;
+	box-shadow:1px 1px 2px rgba(0,0,0,.4);  /* Update By Jean On 07/10/2014 */
+}
+.settings section h4 {
+	height:34px;
+	line-height:34px;
+	font-size:18px!important;
+	font-weight:normal;
+	margin-bottom:8px;
+}
+.settings section h4 img { margin-top:-4px; }
+.settings .btn_radio {
+	float:right;
+	/*removed by robbie start*/
+	/*width:52px;*/
+	/*removed by robbie end*/
+	height:32px;
+	/*removed by robbie start*/
+	/*border-radius:17px;
+	border:1px #e7e7e7 solid;*/
+	/*removed by robbie end*/
+}
+/*added by robbie start*/
+.settings .btn_radio .x-toggle {
+    top:-0.9em!important;
+}
+/*added by robbie end*/
+
+.settings section p 
+{ 
+    clear:both; 
+}
+.settings section p span {
+	float:left;
+	width:34px;
+}
+.settings section p span + span { width:230px; }
+.btn_save {
+	text-align:center;
+	width:100%;
+	/*removed by robbie start*/
+	/*position:absolute;*/
+	/*removed by robbie end*/
+	bottom:45px;
+}
+/*add by stefan start 24/09/2014*/
+.pdf_notification
+{
+    position:absolute; 
+    width:60px; 
+    height:20px; 
+    line-height: 20px;
+    background:#1C1C1C; 
+    bottom:70px;
+    z-index: 19;
+    color: #fff;
+    text-align: center;
+}
+/*add by stefan end 24/09/2014*/
+
+/* Update By Jean On 07/10/2014 */
+.editor .content a { color:#3a4c92; text-decoration: underline;}  /* Update By Jean On 14/10/2014 */
+.guide .editor {
+	min-height:220px; 
+	box-shadow:1px 1px 2px rgba(0,0,0,.4); 
+}
+.guide .btn a {
+	box-sizing: border-box !important;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	display:block;
+	margin:20px auto;
+	width:200px;
+	height: 36px;
+	line-height: 34px;  /* Update By Jean On 14/11/2014 */
+	cursor: pointer;
+	border:1px #a9abaa solid;
+	border-radius:10px;
+	background-color:#fff;
+	text-align:center;
+	text-decoration:none;
+	color:#4498FD;
+}
+.act_btn_next {
+	width:100%;
+	text-align:center;
+	position:absolute;
+	/*updated by robbie start*/
+	/*bottom:8px;*/
+	bottom:30px;
+	/*updated by robbie end*/
+	z-index:103;
+}
+
+/* Update By Jean On 08/10/2014 */
+.bg_content {
+	width:100%;
+	height:100%;
+	margin:-10px;
+	padding:10px;
+	background:url(../img/content.png) no-repeat 0 -30px;
+	background-size:100% 100%;
+}
+
+/* Update By Jean On 14/10/2014 */
+.cover_bg {
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,.4);
+	top:0;
+}
+.popup_message_3 {  
+	box-sizing: border-box !important;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	width: 86%;
+	margin: 0 auto;
+	background-color:#fff;
+	border-radius:10px;
+	text-align: center;
+	position: absolute;
+	top: 150px;
+	left: 7%;
+	z-index:9999;
+}
+
+.popup_message_4 {  
+	box-sizing: border-box !important;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	width: 86%;
+	margin: 0 auto;
+	background-color:#fff;
+	border-radius:10px;
+	text-align: center;
+	position: absolute;
+	bottom: 10px;
+	left: 7%;
+	z-index:9999;
+}
+
+/*added by robbie start*/
+.popup_message_3 .title, .popup_message_4 .title
+{
+    margin: 10px 10px -10px 10px;
+    font-size: 16px!important;
+    font-weight: bold!important;
+}
+/*added by robbie end*/
+.popup_message_3 p, .popup_message_4 p { margin:20px; }
+.popup_message_3 .bottom_act, .popup_message_4 .bottom_act { border-top:1px #bababa solid; }
+.popup_message_3 .bottom_act a, .popup_message_4 .bottom_act a {
+	display:inline-block;
+	width:40%;
+	height:45px;
+	line-height:45px;
+	color:#117AFC;
+	text-decoration:none;
+	font-size:16px;
+}
+.popup_message_3 .bottom_act a:first-child, .popup_message_4 .bottom_act a:first-child { border-right:1px #bababa solid; }
+.popup_message_3 .bottom_act a.full, .popup_message_4 .bottom_act a.full {
+	width:100%; 
+	border:none !important; 
+}
+
+/*added by robbie start*/
+
+.customMsg
+{
+    width: 100%;
+    height: 100%;
+    padding: 0px!important;
+}
+
+.imageContainer
+{
+    background-color: #FFF;
+	background-size:100% 100%;
+}
+
+.notePrivacy {
+	box-sizing: border-box !important;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	width:100%;
+	padding: 0 10px;
+	margin-left: -10px;
+	font-size: 11px!important;
+	text-align: center;
+	line-height: 14px;
+	position: absolute;
+}
+
+.notePrivacy a
+{
+    color: #3a4c92;
+    text-decoration: underline;
+}
+/*added by robbie end*/
